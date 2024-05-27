@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homework: Snackbar, Alert Dialog, Notification"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snackbar"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="60dp"
+        android:text="Send"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:id="@+id/sendMessage"
+        android:onClick="mgSnack"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:layout_marginBottom="8dp"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Close Application"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/button"
+        android:onClick="save"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Notification"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/notificationBtn"
+        android:onClick="courseupdate"/>
+
+
+
+</LinearLayout>
